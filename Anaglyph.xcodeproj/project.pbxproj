@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4DCFFBB1C28B52E001BEB2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DCFFBA1C28B52E001BEB2F /* main.m */; };
+		E4DCFFBE1C28B52E001BEB2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DCFFBD1C28B52E001BEB2F /* AppDelegate.m */; };
+		E4DCFFC11C28B52E001BEB2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DCFFC01C28B52E001BEB2F /* ViewController.m */; };
+		E4DCFFC41C28B52F001BEB2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4DCFFC21C28B52F001BEB2F /* Main.storyboard */; };
+		E4DCFFC61C28B52F001BEB2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4DCFFC51C28B52F001BEB2F /* Assets.xcassets */; };
+		E4DCFFC91C28B52F001BEB2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4DCFFC71C28B52F001BEB2F /* LaunchScreen.storyboard */; };
+		E4DCFFD41C28B52F001BEB2F /* AnaglyphTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DCFFD31C28B52F001BEB2F /* AnaglyphTests.m */; };
+		E4DCFFDF1C28B52F001BEB2F /* AnaglyphUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DCFFDE1C28B52F001BEB2F /* AnaglyphUITests.m */; };
+		E4DCFFED1C28B53E001BEB2F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DCFFEC1C28B53E001BEB2F /* AVFoundation.framework */; };
+		E4DCFFEF1C28B544001BEB2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DCFFEE1C28B544001BEB2F /* UIKit.framework */; };
+		E4DCFFF11C28B54C001BEB2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DCFFF01C28B54C001BEB2F /* CoreGraphics.framework */; };
+		E4DCFFF31C28B550001BEB2F /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DCFFF21C28B550001BEB2F /* CoreImage.framework */; };
+		E4DCFFF51C28B55D001BEB2F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DCFFF41C28B55D001BEB2F /* QuartzCore.framework */; };
+		E4DCFFF71C28B567001BEB2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DCFFF61C28B567001BEB2F /* Foundation.framework */; };
+		E4DCFFFB1C28B5AF001BEB2F /* SingletonCIContext.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DCFFFA1C28B5AF001BEB2F /* SingletonCIContext.m */; };
+		E4DCFFFE1C28B5DF001BEB2F /* BlendMode.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DCFFFD1C28B5DF001BEB2F /* BlendMode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4DCFFD01C28B52F001BEB2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4DCFFAE1C28B52E001BEB2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4DCFFB51C28B52E001BEB2F;
+			remoteInfo = Anaglyph;
+		};
+		E4DCFFDB1C28B52F001BEB2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4DCFFAE1C28B52E001BEB2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4DCFFB51C28B52E001BEB2F;
+			remoteInfo = Anaglyph;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4DCFFB61C28B52E001BEB2F /* Anaglyph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anaglyph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4DCFFBA1C28B52E001BEB2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4DCFFBC1C28B52E001BEB2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E4DCFFBD1C28B52E001BEB2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E4DCFFBF1C28B52E001BEB2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E4DCFFC01C28B52E001BEB2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E4DCFFC31C28B52F001BEB2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4DCFFC51C28B52F001BEB2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4DCFFC81C28B52F001BEB2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4DCFFCA1C28B52F001BEB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4DCFFCF1C28B52F001BEB2F /* AnaglyphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnaglyphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4DCFFD31C28B52F001BEB2F /* AnaglyphTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnaglyphTests.m; sourceTree = "<group>"; };
+		E4DCFFD51C28B52F001BEB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4DCFFDA1C28B52F001BEB2F /* AnaglyphUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnaglyphUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4DCFFDE1C28B52F001BEB2F /* AnaglyphUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnaglyphUITests.m; sourceTree = "<group>"; };
+		E4DCFFE01C28B52F001BEB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4DCFFEC1C28B53E001BEB2F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E4DCFFEE1C28B544001BEB2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E4DCFFF01C28B54C001BEB2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E4DCFFF21C28B550001BEB2F /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		E4DCFFF41C28B55D001BEB2F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E4DCFFF61C28B567001BEB2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E4DCFFF91C28B5AF001BEB2F /* SingletonCIContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonCIContext.h; sourceTree = "<group>"; };
+		E4DCFFFA1C28B5AF001BEB2F /* SingletonCIContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonCIContext.m; sourceTree = "<group>"; };
+		E4DCFFFC1C28B5DF001BEB2F /* BlendMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlendMode.h; sourceTree = "<group>"; };
+		E4DCFFFD1C28B5DF001BEB2F /* BlendMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlendMode.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4DCFFB31C28B52E001BEB2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DCFFF71C28B567001BEB2F /* Foundation.framework in Frameworks */,
+				E4DCFFF51C28B55D001BEB2F /* QuartzCore.framework in Frameworks */,
+				E4DCFFF31C28B550001BEB2F /* CoreImage.framework in Frameworks */,
+				E4DCFFF11C28B54C001BEB2F /* CoreGraphics.framework in Frameworks */,
+				E4DCFFEF1C28B544001BEB2F /* UIKit.framework in Frameworks */,
+				E4DCFFED1C28B53E001BEB2F /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4DCFFCC1C28B52F001BEB2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4DCFFD71C28B52F001BEB2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4DCFFAD1C28B52E001BEB2F = {
+			isa = PBXGroup;
+			children = (
+				E4DCFFF81C28B56D001BEB2F /* Frameworks */,
+				E4DCFFB81C28B52E001BEB2F /* Anaglyph */,
+				E4DCFFD21C28B52F001BEB2F /* AnaglyphTests */,
+				E4DCFFDD1C28B52F001BEB2F /* AnaglyphUITests */,
+				E4DCFFB71C28B52E001BEB2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4DCFFB71C28B52E001BEB2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4DCFFB61C28B52E001BEB2F /* Anaglyph.app */,
+				E4DCFFCF1C28B52F001BEB2F /* AnaglyphTests.xctest */,
+				E4DCFFDA1C28B52F001BEB2F /* AnaglyphUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4DCFFB81C28B52E001BEB2F /* Anaglyph */ = {
+			isa = PBXGroup;
+			children = (
+				E4DCFFBC1C28B52E001BEB2F /* AppDelegate.h */,
+				E4DCFFBD1C28B52E001BEB2F /* AppDelegate.m */,
+				E4DCFFBF1C28B52E001BEB2F /* ViewController.h */,
+				E4DCFFC01C28B52E001BEB2F /* ViewController.m */,
+				E4DCFFF91C28B5AF001BEB2F /* SingletonCIContext.h */,
+				E4DCFFFA1C28B5AF001BEB2F /* SingletonCIContext.m */,
+				E4DCFFFC1C28B5DF001BEB2F /* BlendMode.h */,
+				E4DCFFFD1C28B5DF001BEB2F /* BlendMode.m */,
+				E4DCFFC21C28B52F001BEB2F /* Main.storyboard */,
+				E4DCFFC51C28B52F001BEB2F /* Assets.xcassets */,
+				E4DCFFC71C28B52F001BEB2F /* LaunchScreen.storyboard */,
+				E4DCFFCA1C28B52F001BEB2F /* Info.plist */,
+				E4DCFFB91C28B52E001BEB2F /* Supporting Files */,
+			);
+			path = Anaglyph;
+			sourceTree = "<group>";
+		};
+		E4DCFFB91C28B52E001BEB2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4DCFFBA1C28B52E001BEB2F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4DCFFD21C28B52F001BEB2F /* AnaglyphTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4DCFFD31C28B52F001BEB2F /* AnaglyphTests.m */,
+				E4DCFFD51C28B52F001BEB2F /* Info.plist */,
+			);
+			path = AnaglyphTests;
+			sourceTree = "<group>";
+		};
+		E4DCFFDD1C28B52F001BEB2F /* AnaglyphUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4DCFFDE1C28B52F001BEB2F /* AnaglyphUITests.m */,
+				E4DCFFE01C28B52F001BEB2F /* Info.plist */,
+			);
+			path = AnaglyphUITests;
+			sourceTree = "<group>";
+		};
+		E4DCFFF81C28B56D001BEB2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4DCFFF61C28B567001BEB2F /* Foundation.framework */,
+				E4DCFFF41C28B55D001BEB2F /* QuartzCore.framework */,
+				E4DCFFF21C28B550001BEB2F /* CoreImage.framework */,
+				E4DCFFF01C28B54C001BEB2F /* CoreGraphics.framework */,
+				E4DCFFEE1C28B544001BEB2F /* UIKit.framework */,
+				E4DCFFEC1C28B53E001BEB2F /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4DCFFB51C28B52E001BEB2F /* Anaglyph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4DCFFE31C28B52F001BEB2F /* Build configuration list for PBXNativeTarget "Anaglyph" */;
+			buildPhases = (
+				E4DCFFB21C28B52E001BEB2F /* Sources */,
+				E4DCFFB31C28B52E001BEB2F /* Frameworks */,
+				E4DCFFB41C28B52E001BEB2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Anaglyph;
+			productName = Anaglyph;
+			productReference = E4DCFFB61C28B52E001BEB2F /* Anaglyph.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4DCFFCE1C28B52F001BEB2F /* AnaglyphTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4DCFFE61C28B52F001BEB2F /* Build configuration list for PBXNativeTarget "AnaglyphTests" */;
+			buildPhases = (
+				E4DCFFCB1C28B52F001BEB2F /* Sources */,
+				E4DCFFCC1C28B52F001BEB2F /* Frameworks */,
+				E4DCFFCD1C28B52F001BEB2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4DCFFD11C28B52F001BEB2F /* PBXTargetDependency */,
+			);
+			name = AnaglyphTests;
+			productName = AnaglyphTests;
+			productReference = E4DCFFCF1C28B52F001BEB2F /* AnaglyphTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4DCFFD91C28B52F001BEB2F /* AnaglyphUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4DCFFE91C28B52F001BEB2F /* Build configuration list for PBXNativeTarget "AnaglyphUITests" */;
+			buildPhases = (
+				E4DCFFD61C28B52F001BEB2F /* Sources */,
+				E4DCFFD71C28B52F001BEB2F /* Frameworks */,
+				E4DCFFD81C28B52F001BEB2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4DCFFDC1C28B52F001BEB2F /* PBXTargetDependency */,
+			);
+			name = AnaglyphUITests;
+			productName = AnaglyphUITests;
+			productReference = E4DCFFDA1C28B52F001BEB2F /* AnaglyphUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4DCFFAE1C28B52E001BEB2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sumit Jangid";
+				TargetAttributes = {
+					E4DCFFB51C28B52E001BEB2F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = B4AKR8WPZG;
+					};
+					E4DCFFCE1C28B52F001BEB2F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E4DCFFB51C28B52E001BEB2F;
+					};
+					E4DCFFD91C28B52F001BEB2F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E4DCFFB51C28B52E001BEB2F;
+					};
+				};
+			};
+			buildConfigurationList = E4DCFFB11C28B52E001BEB2F /* Build configuration list for PBXProject "Anaglyph" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4DCFFAD1C28B52E001BEB2F;
+			productRefGroup = E4DCFFB71C28B52E001BEB2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4DCFFB51C28B52E001BEB2F /* Anaglyph */,
+				E4DCFFCE1C28B52F001BEB2F /* AnaglyphTests */,
+				E4DCFFD91C28B52F001BEB2F /* AnaglyphUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4DCFFB41C28B52E001BEB2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DCFFC91C28B52F001BEB2F /* LaunchScreen.storyboard in Resources */,
+				E4DCFFC61C28B52F001BEB2F /* Assets.xcassets in Resources */,
+				E4DCFFC41C28B52F001BEB2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4DCFFCD1C28B52F001BEB2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4DCFFD81C28B52F001BEB2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4DCFFB21C28B52E001BEB2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DCFFFE1C28B5DF001BEB2F /* BlendMode.m in Sources */,
+				E4DCFFC11C28B52E001BEB2F /* ViewController.m in Sources */,
+				E4DCFFBE1C28B52E001BEB2F /* AppDelegate.m in Sources */,
+				E4DCFFBB1C28B52E001BEB2F /* main.m in Sources */,
+				E4DCFFFB1C28B5AF001BEB2F /* SingletonCIContext.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4DCFFCB1C28B52F001BEB2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DCFFD41C28B52F001BEB2F /* AnaglyphTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4DCFFD61C28B52F001BEB2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DCFFDF1C28B52F001BEB2F /* AnaglyphUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4DCFFD11C28B52F001BEB2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4DCFFB51C28B52E001BEB2F /* Anaglyph */;
+			targetProxy = E4DCFFD01C28B52F001BEB2F /* PBXContainerItemProxy */;
+		};
+		E4DCFFDC1C28B52F001BEB2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4DCFFB51C28B52E001BEB2F /* Anaglyph */;
+			targetProxy = E4DCFFDB1C28B52F001BEB2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4DCFFC21C28B52F001BEB2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4DCFFC31C28B52F001BEB2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4DCFFC71C28B52F001BEB2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4DCFFC81C28B52F001BEB2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4DCFFE11C28B52F001BEB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4DCFFE21C28B52F001BEB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4DCFFE41C28B52F001BEB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Anaglyph/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SJ.Anaglyph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		E4DCFFE51C28B52F001BEB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Anaglyph/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SJ.Anaglyph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		E4DCFFE71C28B52F001BEB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AnaglyphTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SJ.AnaglyphTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anaglyph.app/Anaglyph";
+			};
+			name = Debug;
+		};
+		E4DCFFE81C28B52F001BEB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AnaglyphTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SJ.AnaglyphTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anaglyph.app/Anaglyph";
+			};
+			name = Release;
+		};
+		E4DCFFEA1C28B52F001BEB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AnaglyphUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SJ.AnaglyphUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Anaglyph;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E4DCFFEB1C28B52F001BEB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AnaglyphUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SJ.AnaglyphUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Anaglyph;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4DCFFB11C28B52E001BEB2F /* Build configuration list for PBXProject "Anaglyph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4DCFFE11C28B52F001BEB2F /* Debug */,
+				E4DCFFE21C28B52F001BEB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4DCFFE31C28B52F001BEB2F /* Build configuration list for PBXNativeTarget "Anaglyph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4DCFFE41C28B52F001BEB2F /* Debug */,
+				E4DCFFE51C28B52F001BEB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4DCFFE61C28B52F001BEB2F /* Build configuration list for PBXNativeTarget "AnaglyphTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4DCFFE71C28B52F001BEB2F /* Debug */,
+				E4DCFFE81C28B52F001BEB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4DCFFE91C28B52F001BEB2F /* Build configuration list for PBXNativeTarget "AnaglyphUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4DCFFEA1C28B52F001BEB2F /* Debug */,
+				E4DCFFEB1C28B52F001BEB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4DCFFAE1C28B52E001BEB2F /* Project object */;
+}
